@@ -2,6 +2,10 @@
 
 This C++ project implements a neural network for handwritten digit recognition using the MNIST dataset. The network architecture consists of three layers with 785, 30, and 10 neurons respectively.
 
+## Online Demo
+
+An online demonstration is available where you can try out the trained model. Visit [NeuralDigit Demo](https://karimzakzouk.github.io/NeuralDigit/) to test the model with your own handwritten digits and see how well it performs.
+
 ## Image Preprocessing (Web Version)
 
 The process begins by scaling down the bounding box of the input drawing to a size of 20x20 pixels. The image is then centered on the center of mass of the pixels within a 28x28 image. This preprocessing step prepares the image for feeding it into the pre-trained neural network.
